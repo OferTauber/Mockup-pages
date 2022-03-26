@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana,
+    'lucida sans unicode', tahoma, sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.figur {
+  margin-top: 40px;
+}
+
+.figur img {
+  display: block;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.massage h1 {
+  font-size: 38px;
+  margin: 10px 0;
+  line-height: 47px;
+}
+
+.massage p {
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.links {
+  margin: 48px 0;
+}
+
+.links li {
+  margin-top: 10px;
+}
+
+.links p,
+a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 95, 248);
+}
+
+a:hover {
+  text-decoration: underline;
+}

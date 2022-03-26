@@ -24,3 +24,7 @@ https://www.dropbox.com/error
 ## Feedback
 
 If you have any feedback, please reach out to us at ofertauber@gmail.com
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/OferTauber/Mockup-pages/main/oririnal_vs_my_copy.png)

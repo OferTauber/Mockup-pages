@@ -1,0 +1,151 @@
+/* ======= utils ========= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+.nav-item {
+  /* For the purpose of using the exact font I'v copied the link to Pixar's CSS sheet so the text is already formatted automatically. I used "Important!" to ensure I control the design, even though the result is the same. */
+  font-family: futura-pt !important;
+}
+
+.box-1 {
+  background-color: aqua;
+  border: 1px green dashed;
+  /* border: 2px blue dashed; */
+}
+.box-2 {
+  background-color: red;
+  /* border: 2px red dashed; */
+}
+.box-3 {
+  background-color: yellow;
+  /* border: 2px gray dashed; */
+}
+
+/* ======== header ========= */
+
+.header-containber {
+  max-width: 1167.7px;
+  margin: auto;
+  margin-top: 33.5px;
+}
+
+header img {
+  display: inline-block;
+  height: 52px;
+  width: 174px;
+  margin-left: 24px;
+}
+
+.img-float-box {
+  float: left;
+}
+
+nav {
+  float: right;
+  padding-top: 7px;
+  padding-right: 60px;
+}
+.nav-item {
+  display: inline;
+  margin: 0 14px;
+}
+
+.nav-item a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
+
+.nav-item a:hover {
+  color: rgba(29 29 29 0.7);
+  color: rgb(187, 100, 65);
+}
+
+/* ============ main ============ */
+.main-container {
+  max-width: 1120px;
+  height: 485px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.image-container {
+  float: left;
+  height: fit-content;
+}
+
+.main-text {
+  float: right;
+  text-align: center;
+}
+
+.main-text h1 {
+  font-family: 'Jost', sans-serif !important;
+  font-weight: 600 !important;
+  padding-top: 165px;
+}
+
+.image-container img {
+  height: 473.25px;
+}
+
+/* ==== footer ====== */
+footer {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding-bottom: 85px;
+}
+
+.icons-container {
+  height: 94.5px;
+}
+
+.icons-container:hover {
+  color: rgba(0, 0, 0, 0.555);
+}
+
+.icons-container i,
+svg {
+  display: inline-block;
+  height: 22.5px !important;
+  margin: 0 7px;
+}
+
+#icon-item1:hover,
+#icon-item2:hover,
+#icon-item3:hover,
+#icon-item4:hover {
+  color: black;
+}
+
+footer p {
+  font-family: 'Jost', sans-serif !important;
+  font-size: smaller;
+  line-height: 23.8px;
+  font-weight: 100 !important;
+  font-size: 14px;
+}
+
+.linkes-container {
+  margin-bottom: 15px;
+}
+
+.linkes-line a {
+  padding: 7px;
+  text-decoration: underline !important;
+}
+
+.linkes-line a:hover {
+  opacity: 0.8;
+}
